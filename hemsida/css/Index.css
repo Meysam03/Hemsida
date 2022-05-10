@@ -5,10 +5,125 @@
 }
 
 .trio {
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(C:\Users\msmre\Documents\GitHub\Hemsida\hemsida\Bilder\trio-ed.jpg.cf.jpg);
-    background-position: center;
-    background-size: cover;
+    width: 100%;            
+}
+
+
+
+
+.Pargraph-2{
+
+    text-align: center;
 
 }
+
+.Pargraph-2 h2{
+    font-size: 33px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+}
+.Pargraph-2 p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    
+}
+
+.dokme{
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid #000000;
+    padding: 12px 34px;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+.dokme:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: 98px 914px 90px 140px 300px 140px 260px 200px 400px 100px 90px;
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    }
+    
+    .header { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 2 / 1 / 3 / 6; }
+    .Paragraph-1 { grid-area: 4 / 2 / 5 / 5; }
+    .xbox { grid-area: 5 / 1 / 6 / 2; }
+    .ps5 { grid-area: 5 / 2 / 6 / 3; }
+    .pc { grid-area: 5 / 3 / 6 / 4; }
+    .Nintendo { grid-area: 5 / 4 / 6 / 5; }
+    .mobil { grid-area: 5 / 5 / 6 / 6; }
+    .Pargraph-2 { grid-area: 7 / 2 / 8 / 5; }
+    .div10 { grid-area: 9 / 1 / 10 / 6; }
+    .div11 { grid-area: 11 / 1 / 12 / 6; }

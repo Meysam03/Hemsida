@@ -1,0 +1,68 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+    
+}
+
+
+
+.div9 {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% repeat(2, 30%) 20%;
+    grid-template-rows: 98px 300px 680px 550px 100px 680px 550px 100px 800px 550px 100px 680px 550px;
+    grid-column-gap: 30px;
+    grid-row-gap: 70px;
+    }
+
+
+
+.header { grid-area: 1 / 1 / 2 / 5; }
+.Rubrik { grid-area: 2 / 2 / 3 / 4; }
+.div3 { grid-area: 3 / 2 / 4 / 4; }
+.Speldator{ grid-area: 4 / 2 / 5 / 3; }
+.SpeldatorF{ grid-area: 4 / 3 / 5 / 4; }
+.div6 { grid-area: 6 / 2 / 7 / 4; }
+.Console{ grid-area: 7 / 2 / 8 / 3; }
+.ConsoleF { grid-area: 7 / 3 / 8 / 4; }
+.div9 { grid-area: 9 / 2 / 10 / 4; }
+.Bärbar-Spelkonsol { grid-area: 10 / 2 / 11 / 3; }
+.Bärbar-SpelkonsolF { grid-area: 10 / 3 / 11 / 4; }
+.div12 { grid-area: 12 / 2 / 13 / 4; }
+.Mobil { grid-area: 13 / 2 / 14 / 3; }
+.MobilF { grid-area: 13 / 3 / 14 / 4; }

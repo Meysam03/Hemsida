@@ -12,7 +12,17 @@
 }
 
 
+.footer  {
+    
+    
 
+
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+   
+}
 
 
 
@@ -45,7 +55,7 @@
 .grid {
     display: grid;
     grid-template-columns: 20% repeat(2, 30%) 20%;
-    grid-template-rows: 98px 300px 680px 550px 100px 680px 550px 100px 800px 550px 100px 680px 550px;
+    grid-template-rows: 98px 300px 680px 550px 100px 680px 550px 100px 800px 550px 100px 680px 550px 45px;
     grid-column-gap: 30px;
     grid-row-gap: 70px;
     }
@@ -66,3 +76,4 @@
 .div12 { grid-area: 12 / 2 / 13 / 4; }
 .Mobil { grid-area: 13 / 2 / 14 / 3; }
 .MobilF { grid-area: 13 / 3 / 14 / 4; }
+.footer { grid-area: 14 / 1 / 15 / 6;}

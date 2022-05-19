@@ -58,7 +58,17 @@
 
 
 
+.footer  {
+    
+    
 
+
+    width: 100%;
+    background-color: rgb(45, 142, 167);
+    color: white;
+    text-align: center;
+    
+ }
 
 
 
@@ -111,7 +121,7 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(5, 20%);
-    grid-template-rows: 98px 914px 90px 140px 300px 140px 260px 200px 400px 100px 90px;
+    grid-template-rows: 98px 914px 90px 140px 300px 140px 260px 100px 300px 90px;
     grid-column-gap: 0px;
     grid-row-gap: 20px;
     }
@@ -125,5 +135,5 @@
     .Nintendo { grid-area: 5 / 4 / 6 / 5; }
     .mobil { grid-area: 5 / 5 / 6 / 6; }
     .Pargraph-2 { grid-area: 7 / 2 / 8 / 5; }
-    .div10 { grid-area: 9 / 1 / 10 / 6; }
-    .div11 { grid-area: 11 / 1 / 12 / 6; }
+    .artikel { grid-area: 9 / 3 / 10 / 6; }
+    .footer { grid-area: 10 / 1 / 12 / 6; }

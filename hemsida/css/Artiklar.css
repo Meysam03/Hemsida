@@ -63,7 +63,25 @@ table, td, table, th {
 
 
 
+.more-info{
 
+    text-align: center;
+    border-radius: 5px;
+    border-color: #000000;
+
+}
+
+.more-info h5{
+    font-size: 33px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+}
+.more-info p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+}
 
 
 

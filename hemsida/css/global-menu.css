@@ -1,77 +1,77 @@
 * {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 body {
-    background-color: aliceblue;
-    background-size: cover;
-    box-sizing: border-box;
-    font-family: sans-serif;
+	background-color: aliceblue;
+	background-size: cover;
+	box-sizing: border-box;
+	font-family: sans-serif;
 }
 
 .menu-bar {
-    background-color: #2B2D32;
-    text-align: center;
+	background-color: #2b2d32;
+	text-align: center;
 }
 
 .menu-bar ul {
-    display: inline-flex;
-    list-style: none;
-    color: #fff;
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
 }
 
 .menu-bar ul li {
-    width: 150px;
-    margin: 20px;
-    padding: 20px;
+	width: 150px;
+	margin: 20px;
+	padding: 20px;
 }
 
 .menu-bar ul li a {
-    text-decoration: none;
-    color: #fff;
+	text-decoration: none;
+	color: #fff;
 }
 
 .active,
 .menu-bar ul li:hover {
-    background-color: #4369BE;
-    border-radius: 7px;
+	background-color: #4369be;
+	border-radius: 7px;
 }
 
 .menu-bar .fa {
-    margin-right: 8px;
+	margin-right: 8px;
 }
 
 .sub-menu-1 {
-    display: none;
+	display: none;
 }
 
 .menu-bar ul li:hover .sub-menu-1 {
-    display: block;
-    position: absolute;
-    background: #4369BE;
-    margin-top: 15px;
-    margin-left: -15px;
+	display: block;
+	position: absolute;
+	background: #4369be;
+	margin-top: 15px;
+	margin-left: -15px;
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul {
-    display: block;
-    margin: 10px;
+	display: block;
+	margin: 10px;
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul li {
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul li:last-child {
-    border-bottom: none;
+	border-bottom: none;
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul li:hover {
-    color: black;
+	color: black;
 }

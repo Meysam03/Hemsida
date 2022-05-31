@@ -36,12 +36,26 @@
 
 	<main>
 		<div class="contact-box">
-			<form>
+			<form action="nol.html">
+				<label  class="label">Namn:</label> <br>
 				<input type="text" class="inputfield" placeholder="Ditt Namn" />
-				<input type="text" class="inputfield" placeholder="Din Email" />
-				<input type="text" class="inputfield" placeholder="Ämne" />
+				<label  class="label">Epost-adress:</label> <br>
+				<input type="email" class="inputfield" placeholder="Din Email" /><br>
+				<label  class="label" for="pwd">Lösenord:</label>
+				<input type="password" class="inputfield " placeholder="Lösenord"   minlength="8"><br><br>
+				<input type="checkbox" class="box" name="vehicle1" value="Bike">
+				<label  class="label" for="vehicle1"> Akut</label><br>
+
+				<p>Hur mycket ska du lägga pengar för ditt nya spel plattform?:</p>
+				<input type="radio" id="age1" name="age" value="30">
+				<label for="age1">1000 - 5000</label><br>
+				<input type="radio" id="age2" name="age" value="60">
+				<label for="age2">5000 - 10000</label><br>  
+				<input type="radio" id="age3" name="age" value="100">
+				<label for="age3">10000 - 2000</label><br><br>
+				<label >Medellande:</label> <br>
 				<textarea class="inputfield textarea-field" placeholder="Ditt Medellande"></textarea>
-				<button type="button" class="btn">Skicka Ditt Medellande</button>
+				<button type="submit" value="Submit" class="btn">Skicka Ditt Medellande</button>
 			</form>
 		</div>
 	</main>

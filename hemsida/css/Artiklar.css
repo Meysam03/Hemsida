@@ -11,6 +11,7 @@
 
 .div4 {
     margin-top: 30px;
+    padding: 50px 30px 40px 60px;
 }
 
 
@@ -94,7 +95,7 @@ table, td, table, th {
 }
 .rubrik p{
     font-size: 20px;
-    font-weight: 590;
+    font-weight: 500;
 }
 
 
@@ -146,7 +147,7 @@ table, td, table, th {
 .grid{
     display: grid;
     grid-template-columns: 20% 10% repeat(2, 20%) 10% 20%;
-    grid-template-rows: 98px 200px 672px 170px 800px 1fr 250px 150px 300px 73px;
+    grid-template-rows: 98px 200px 672px 270px 800px 1fr 250px 150px 300px 73px;
     grid-column-gap: 20px;
     grid-row-gap: 17px;
     }

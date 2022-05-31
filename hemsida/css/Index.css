@@ -23,11 +23,17 @@ p {
 }
 .Pargraph-2 p {
 	margin: 10px 0 40px;
-	font-size: 15px;
+	font-size: 17px;
 }
 
 .Paragraph-1 {
 	padding-bottom: 40px;
+	margin-bottom: 60px;
+	font-size: 18px;
+}
+h1{
+	margin-top: -79px;
+	text-align: center;
 }
 
 .dokme {
@@ -47,6 +53,31 @@ p {
 	transition: 1s;
 }
 
+
+
+
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.artikel{
+	width: 366px;
+	height: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
 .footer {
 	width: 100%;
 	background-color: rgb(45, 142, 167);
@@ -58,7 +89,7 @@ p {
 .grid {
 	display: grid;
 	grid-template-columns: repeat(5, 20%);
-	grid-template-rows: 98px 914px 120px 140px 300px 140px 260px 100px 300px 60px;
+	grid-template-rows: 98px 914px 160px 140px 300px 140px 260px 100px 250px 100px 60px;
 	grid-column-gap: 0px;
 	grid-row-gap: 20px;
 }
@@ -94,5 +125,5 @@ p {
 	grid-area: 9 / 3 / 10 / 6;
 }
 .footer {
-	grid-area: 10 / 1 / 12 / 6;
+	grid-area: 11 / 1 / 12 / 6;
 }

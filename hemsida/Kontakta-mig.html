@@ -22,6 +22,7 @@
 					</li>
 					<li>
 						<a href="Platformar.html"><i class="fa fa-gamepad"></i>Platformar</a>
+					</li>
 
 					<li>
 						<a href="Artiklar.html"><i class="fa fa-newspaper-o"></i>Artiklar</a>
@@ -36,26 +37,25 @@
 
 	<main>
 		<div class="contact-box">
-			<form action="nol.html">
-				<label  class="label">Namn:</label> <br>
-				<input type="text" class="inputfield" placeholder="Ditt Namn" />
-				<label  class="label">Epost-adress:</label> <br>
-				<input type="email" class="inputfield" placeholder="Din Email" /><br>
-				<label  class="label" for="pwd">Lösenord:</label>
-				<input type="password" class="inputfield " placeholder="Lösenord"   minlength="8"><br><br>
-				<input type="checkbox" class="box" name="vehicle1" value="Bike">
-				<label  class="label" for="vehicle1"> Akut</label><br>
-
-				<p>Hur mycket ska du lägga pengar för ditt nya spel plattform?:</p>
-				<input type="radio" id="age1" name="age" value="30">
-				<label for="age1">1000 - 5000</label><br>
-				<input type="radio" id="age2" name="age" value="60">
-				<label for="age2">5000 - 10000</label><br>  
-				<input type="radio" id="age3" name="age" value="100">
-				<label for="age3">10000 - 2000</label><br><br>
-				<label >Medellande:</label> <br>
-				<textarea class="inputfield textarea-field" placeholder="Ditt Medellande"></textarea>
-				<button type="submit" value="Submit" class="btn">Skicka Ditt Medellande</button>
+			<form action="nol.html" method="get">
+				<label class="label">Namn:</label> <br />
+				<input type="text" class="inputfield" placeholder="Ditt Namn" /><br />
+				<label class="label"> E-Postadress:</label> <br />
+				<input type="email" class="inputfield" placeholder="Din Email" /><br />
+				<label class="label" for="pass">Lösenord:</label><br>
+				<input type="password" class="pass" placeholder="Lösenord" minlength="8" />
+				<input type="checkbox" class="box" />
+				<label class="label" for="vehicle1"> Akut Fråga</label><br />
+				<label class="labelF">Hur mycket ska du lägga pengar för ditt nya spel plattform?(kr)</label><br>
+				<input type="radio" class="radio" name="age" value="30" />
+				<label for="age1">1000 - 5000</label>
+				<input type="radio" class="radio" name="age" value="60" />
+				<label for="age2">5000 - 10000</label>
+				<input type="radio" class="radio" name="age" value="100" />
+				<label for="age3">10000 - 20000</label><br /><br />
+				<label class="label"> Medellande:</label> <br />
+				<textarea class="inputfield textarea-field" placeholder="Ditt Medellande"></textarea><br>
+				<button type="submit" value="Submit" class="btn">Skicka</button>
 			</form>
 		</div>
 	</main>

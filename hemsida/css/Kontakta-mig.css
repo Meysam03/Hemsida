@@ -4,13 +4,13 @@
 }
 
 body {
-	background-image: url('cr.jpg');
-
-	font-family: sans-serif;
+	background-image: url('bo.jpg');
+	color: #181b1f;
+	font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .contact-box {
-	width: 700px;
+	width: 600px;
 	background-color: #fff;
 	box-shadow: 0 0 20px 0#999;
 	top: 50%;
@@ -25,46 +25,66 @@ form {
 }
 
 .inputfield {
-	width: 570px;
-	height: 50px;
+	width: 35em;
+	height: 45px;
 	margin-bottom: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
 	border: 1px solid #777;
-	border-radius: 14px;
+	border-radius: 1em;
 	outline: none;
 }
-.label{
-	margin-bottom: -60px;
+
+.label {
+	margin-left: 8px;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.labelF {
+	font-size: 17px;
+	margin: 7px 0 5px 10px;
+}
+
+.radio {
+	margin: 12px 0 0 50px;
+}
+
+.box {
+
+	margin: -5px 0 15px 90px;
 }
 
 
 
-.box{
+.pass {
+	width: 12em;
+	height: 3em;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #777;
+	border-radius: 1em;
+	outline: none;
 
-	margin-bottom: 15px;
-	margin-top: -5px;
 }
-
-
-
-
-
 
 
 
 .textarea-field {
-	height: 150px;
+	height: 9em;
 	padding-top: 10px;
 }
 
+
 .btn {
 	border-radius: 20px;
-	color: rgb(0, 0, 0);
-	
-	padding: 16px;
-	background-color: rgb(26, 136, 139);
-	font-size: 12px;
+	color: rgb(255, 255, 255);
+	padding: 12px;
+	background-color: rgb(167, 75, 102);
+	font-size: 15px;
+	width: 120px;
+	font-weight: 700;
 }
 
 footer {

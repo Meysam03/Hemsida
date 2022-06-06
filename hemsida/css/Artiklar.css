@@ -2,10 +2,10 @@
     padding: 0%;
     margin: 0%;
 
-    
+
 }
 
-.div3{
+.div3 {
     width: 100%;
 }
 
@@ -16,7 +16,7 @@
 
 
 
-h2{
+h2 {
     font-size: 30px;
     text-align: center;
 
@@ -24,70 +24,85 @@ h2{
 
 
 
-
-
-video{
+video {
     width: 100%;
 
 }
 
-
+/* Egenskapen border-collapse CSS anger om celler inuti en <tabell> har delade eller separata gränser.  */
 table {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
-  
-table, td, table, th {
+}
+
+table,
+td,
+table,
+th {
     border: 1px solid #ddd;
     padding: 20px;
-  }
+}
 
 
-  thead:nth-child(1)
-  {
-      background-color: rgba(205, 218, 32, 0.753);
-  }
-  tr:nth-child(2n-1) {
+thead:nth-child(1) {
+    background-color: rgba(205, 218, 32, 0.753);
+    /* Rubrik ska ha rgba(205, 218, 32, 0.753); färg */
+}
+
+tr:nth-child(2n-1) {
     background: rgba(0, 160, 255, 0.5) none repeat scroll 0 0;
+    /* För att skapa en zebra-striped tabell, använde jag  nth-child() */
 }
- td:nth-child(2n) {
+
+td:nth-child(2n) {
     background: rgba(255, 107, 0, 0.5) none repeat scroll 0 0;
+    /*  zebra-striped vertikal*/
 }
-.table,th,td{
-    border: 1px solid black; 
+
+.table,
+th,
+td {
+    border: 1px solid black;
+    /* Egenskapen border-collapse CSS anger om celler inuti en <tabell> har delade eller separata gränser.  */
     border-collapse: collapse;
     font-size: 20px;
+    /* Egenskapen text-align anger den horisontella justeringen av text i ett element. */
     text-align: center;
+
 }
 
 .table {
-    
-        width: 100%;
-        height: 100%;
-    
+
+    width: 100%;
+    height: 100%;
+
 }
 
 
 
 
 
-.more-info{
-
+.more-info {
+    /* Egenskapen text-align anger den horisontella justeringen av text i ett element. */
     text-align: center;
     border-radius: 5px;
     border-color: #000000;
 
 }
 
-.more-info h5{
+
+.more-info h5 {
     font-size: 33px;
+    /*  Om webbläsaren inte stöder det första teckensnittet, försöker den nästa teckensnitt.*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
 
+
 }
-.more-info p{
+
+.more-info p {
     margin: 10px 0 40px;
     font-size: 14px;
 }
@@ -98,7 +113,8 @@ table, td, table, th {
     margin-top: 40px;
 
 }
-.rubrik p{
+
+.rubrik p {
     font-size: 20px;
     font-weight: 500;
 }
@@ -106,52 +122,47 @@ table, td, table, th {
 
 
 
-.dokme{
-    display: inline-block;
+.dokme {
     color: #000000;
+    /* används för att ta bort understrykningen från länkar, */
     text-decoration: none;
     border: 1px solid #000000;
-    padding: 12px 34px;
+    padding: 13px 50px;
     font-size: 16px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
+
+
 
 }
-.dokme:hover{
+
+/* när användaren för muspekaren över den */
+.dokme:hover {
     border: 1px solid #f5fdff;
     background: #113e63;
     transition: 1s;
+    /* under en sekund */
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-.div8 ,.div9{
+.div8,
+.div9 {
     margin-top: 40px;
+    /* Egenskapen text-align anger den horisontella justeringen av text i ett element. */
     text-align: center;
 }
 
 
 
 
-
-
-
-
-h4, h3{
+h4,
+h3 {
     margin-bottom: 50px;
     font-size: 20px;
+    /* Egenskapen text-align anger den horisontella justeringen av text i ett element. */
     text-align: center;
+    /*  Om webbläsaren inte stöder det första teckensnittet, försöker den nästa teckensnitt.*/
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -159,62 +170,90 @@ h4, h3{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.grid{
-    display: grid;
-    grid-template-columns: 20% 10% repeat(2, 20%) 10% 20%;
-    grid-template-rows: 98px 200px 672px 270px 800px 1fr 150px 200px 300px 73px;
-    grid-column-gap: 20px;
-    grid-row-gap: 17px;
-    }
-    
-    .header{ grid-area: 1 / 1 / 2 / 7; }
-    .rubrik { grid-area: 2 / 3 / 3 / 5; }
-    .div3 { grid-area: 3 / 2 / 4 / 6; }
-    .div4 { grid-area: 4 / 2 / 5 / 6; }
-    .tabel { grid-area: 5 / 3 / 6 / 5; }
-    .mp4 { grid-area: 6 / 2 / 7 / 6; }
-    .div8 { grid-area: 7 / 3 / 8 / 5; }
-     .div9 { grid-area: 8 / 3 / 9 / 5; }
-     .more-info { grid-area: 9 / 3 / 10 / 5; }
-     .footer { grid-area: 10 / 1 / 11 / 7; }
-     .div6 { grid-area: 2 / 6 / 10 / 7; }
-.div7 { grid-area: 2 / 1 / 10 / 2; }
-
-
-
-.div6, .div7 {
+.div6,
+.div7 {
     background-color: #000000;
     color: #578cb8;
+    /* Jag sätter     margin-top: -17px; för att det ska inte finnas gap mellan dem. */
     margin-top: -17px;
+    /* samma här */
     margin-bottom: -17px;
 }
 
 
 
-.footer  {
-    
-    
+.footer {
+
+
 
 
     width: 100%;
     background-color: rgb(45, 142, 167);
     color: white;
+    /* Egenskapen text-align anger den horisontella justeringen av text i ett element. */
     text-align: center;
-    padding-top: 27px ;
-    
- }
+    padding-top: 27px;
+
+}
+
+
+
+
+/* Jag använder Grid för att placera mina content i dem lockor jag har skapat */
+.grid {
+    display: grid;
+    /* 6 st column */
+    grid-template-columns: 20% 10% repeat(2, 20%) 10% 20%;
+    /* 10st rad */
+    grid-template-rows: 98px 200px 672px 270px 800px 1fr 150px 200px 300px 73px;
+    grid-column-gap: 20px;
+    grid-row-gap: 17px;
+}
+
+.header {
+    grid-area: 1 / 1 / 2 / 7;
+}
+
+.rubrik {
+    grid-area: 2 / 3 / 3 / 5;
+}
+
+.div3 {
+    grid-area: 3 / 2 / 4 / 6;
+}
+
+.div4 {
+    grid-area: 4 / 2 / 5 / 6;
+}
+
+.tabel {
+    grid-area: 5 / 3 / 6 / 5;
+}
+
+.mp4 {
+    grid-area: 6 / 2 / 7 / 6;
+}
+
+.div8 {
+    grid-area: 7 / 3 / 8 / 5;
+}
+
+.div9 {
+    grid-area: 8 / 3 / 9 / 5;
+}
+
+.more-info {
+    grid-area: 9 / 3 / 10 / 5;
+}
+
+.footer {
+    grid-area: 10 / 1 / 11 / 7;
+}
+
+.div6 {
+    grid-area: 2 / 6 / 10 / 7;
+}
+
+.div7 {
+    grid-area: 2 / 1 / 10 / 2;
+}

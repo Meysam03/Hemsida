@@ -5,8 +5,11 @@
 
 body {
 	background-color: aliceblue;
+	/*Det  kommer bara att få färget att fylla 100 % av elementetet */
 	background-size: cover;
+	/* Padding och border ingår i bredd och höjd: */
 	box-sizing: border-box;
+	/*  Om webbläsaren inte stöder det första teckensnittet, försöker den nästa teckensnitt.*/
 	font-family: sans-serif;
 }
 
@@ -16,7 +19,9 @@ body {
 }
 
 .menu-bar ul {
+	/* använder flex */
 	display: inline-flex;
+	/* kommer inte att visas som en lista. */
 	list-style: none;
 	color: #fff;
 }
@@ -32,6 +37,7 @@ body {
 	color: #fff;
 }
 
+/* när användaren för muspekaren över den */
 .active,
 .menu-bar ul li:hover {
 	background-color: #4369be;

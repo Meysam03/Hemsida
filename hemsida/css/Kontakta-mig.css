@@ -4,19 +4,26 @@
 }
 
 body {
+	/* Backgrunds bild */
 	background-image: url('bo.jpg');
 	color: #181b1f;
+	/*  Om webbläsaren inte stöder det första teckensnittet, försöker den nästa teckensnitt.*/
 	font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .contact-box {
 	width: 600px;
 	background-color: #fff;
+	/* Box-shadow-egenskapen fäster en eller flera skuggor till ett element. */
 	box-shadow: 0 0 20px 0#999;
+	/* 50% från toppen. */
 	top: 50%;
+	/* 50% fråm sidor */
 	left: 50%;
+	/*  transform egenskap kontrollerar visuellt element och låter dig skala, rotera, skeva element. */
 	transform: translate(-50%, -50%);
 	position: absolute;
+	/* bestämmer hur rund det ska vara  */
 	border-radius: 14px;
 }
 
@@ -25,7 +32,9 @@ form {
 }
 
 .inputfield {
+	/* bredd på Inmatningsområde */
 	width: 35em;
+	/* höjd på Inmatningsområde */
 	height: 45px;
 	margin-bottom: 20px;
 	padding-left: 10px;
@@ -38,6 +47,7 @@ form {
 .label {
 	margin-left: 8px;
 	font-size: 15px;
+	/* bestömmer som avgör hur fet eller ljus din text kommer att se ut */
 	font-weight: 500;
 }
 
@@ -58,7 +68,9 @@ form {
 
 
 .pass {
+	/* bredd på Inmatningsområde */
 	width: 12em;
+	/* höjd på Inmatningsområde */
 	height: 3em;
 	margin-bottom: 20px;
 	padding-left: 10px;
@@ -84,6 +96,7 @@ form {
 	background-color: rgb(167, 75, 102);
 	font-size: 15px;
 	width: 120px;
+	/* bestömmer som avgör hur fet eller ljus din text kommer att se ut */
 	font-weight: 700;
 }
 
@@ -91,8 +104,11 @@ footer {
 	padding: 20px;
 	background: rgb(65, 6, 6);
 	color: rgb(255, 255, 255);
+	/* Det ska vara botten av sida. */
 	bottom: 0;
 	position: absolute;
+	/* Det ska täcka hela bredden. */
 	width: 100%;
+	/* Egenskapen text-align anger den horisontella justeringen av text i ett element. */
 	text-align: center;
 }

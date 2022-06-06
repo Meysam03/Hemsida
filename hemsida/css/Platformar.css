@@ -16,11 +16,13 @@ p,
 li,
 dt,
 dd {
+	/*  Om webbläsaren inte stöder det första teckensnittet, försöker den nästa teckensnitt.*/
 	font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .FÖR-Nack {
 	font-size: 24px;
+	/* bestömmer som avgör hur fet eller ljus din text kommer att se ut */
 	font-weight: 700;
 }
 
@@ -41,7 +43,7 @@ dd {
 	padding-top: 10px;
 }
 
-
+/* Jag skriver inte bara ul för att det kan påverka min navigation menu */
 .SpeldatorF ul,
 .ConsoleF ul,
 .Bärbar-SpelkonsolF ul,
@@ -54,13 +56,17 @@ dd {
 	width: 100%;
 	background-color: red;
 	color: white;
+	/* Egenskapen text-align anger den horisontella justeringen av text i ett element. */
 	text-align: center;
 }
 
 
+/* Jag använder Grid för att placera mina content i dem lockor jag har skapat */
 .grid {
 	display: grid;
+	/* 4st column */
 	grid-template-columns: 20% repeat(2, 30%) 20%;
+	/* 14st rad */
 	grid-template-rows: 98px 230px 680px 550px 100px 680px 550px 100px 800px 550px 100px 680px 550px 45px;
 	grid-column-gap: 30px;
 	grid-row-gap: 70px;

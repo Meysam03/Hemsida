@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: #eeb9b9;
+	background-color: #e7f8c8;
 }
 
 
@@ -13,6 +13,7 @@ body {
 }
 
 p {
+	/*  Om webbläsaren inte stöder det första teckensnittet, försöker den nästa teckensnitt.*/
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
 		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,
 		'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -24,6 +25,7 @@ p {
 
 .Pargraph-2 h2 {
 	font-size: 33px;
+	/*  Om webbläsaren inte stöder det första teckensnittet, försöker den nästa teckensnitt.*/
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -40,21 +42,22 @@ p {
 
 h1 {
 	margin-top: -79px;
+	/* Egenskapen text-align anger den horisontella justeringen av text i ett element. */
 	text-align: center;
 }
 
 .dokme {
-	display: inline-block;
+
 	color: #000000;
+	/* används för att ta bort understrykningen från länkar, */
 	text-decoration: none;
 	border: 1px solid #000000;
 	padding: 12px 34px;
 	font-size: 16px;
-	background: transparent;
-	position: relative;
-	cursor: pointer;
+
 }
 
+/* när användaren för muspekaren över den */
 .dokme:hover {
 	border: 1px solid #f44336;
 	background: #f44336;
@@ -72,13 +75,17 @@ img {
 .artikel {
 	width: 366px;
 	height: 90%;
-	text-decoration: none;
-	display: inline-block;
 }
 
-.artikel,
-a:active {
+
+
+.artikel a {
+	/* används för att ta bort understrykningen från länkar, */
 	text-decoration: none;
+	color: #f44336;
+	/* Egenskapen text-align anger den horisontella justeringen av text i ett element. */
+	text-align: center;
+
 
 }
 
@@ -92,6 +99,7 @@ a:active {
 	padding-top: 27px;
 }
 
+/* Jag använder Grid för att placera mina content i dem lockor jag har skapat */
 .grid {
 	display: grid;
 	grid-template-columns: repeat(5, 20%);

@@ -52,7 +52,7 @@ dd {
 }
 
 
-.footer {
+footer {
 	width: 100%;
 	background-color: red;
 	color: white;
@@ -73,7 +73,7 @@ dd {
 }
 
 
-.header {
+header {
 	grid-area: 1 / 1 / 2 / 5;
 }
 
@@ -129,6 +129,6 @@ dd {
 	grid-area: 13 / 3 / 14 / 4;
 }
 
-.footer {
+footer {
 	grid-area: 14 / 1 / 15 / 6;
 }

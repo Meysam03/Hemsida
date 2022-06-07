@@ -156,8 +156,7 @@ td {
 
 
 
-h4,
-h3 {
+h2 {
     margin-bottom: 50px;
     font-size: 20px;
     /* Egenskapen text-align anger den horisontella justeringen av text i ett element. */
@@ -174,17 +173,12 @@ h3 {
 .div7 {
     background-color: #000000;
     color: #578cb8;
-    /* Jag sätter     margin-top: -17px; för att det ska inte finnas gap mellan dem. */
-    margin-top: -17px;
-    /* samma här */
-    margin-bottom: -17px;
+
 }
 
 
 
-.footer {
-
-
+footer {
 
 
     width: 100%;
@@ -192,7 +186,7 @@ h3 {
     color: white;
     /* Egenskapen text-align anger den horisontella justeringen av text i ett element. */
     text-align: center;
-    padding-top: 27px;
+    padding: 27px;
 
 }
 
@@ -205,55 +199,61 @@ h3 {
     /* 6 st column */
     grid-template-columns: 20% 10% repeat(2, 20%) 10% 20%;
     /* 10st rad */
-    grid-template-rows: 98px 200px 672px 270px 800px 1fr 150px 200px 300px 73px;
+    grid-template-rows:  200px 672px 270px 800px 1fr 150px 200px 240px 73px;
     grid-column-gap: 20px;
     grid-row-gap: 17px;
 }
 
-.header {
-    grid-area: 1 / 1 / 2 / 7;
-}
+
 
 .rubrik {
-    grid-area: 2 / 3 / 3 / 5;
+    grid-area: 1 / 3 / 2 / 5;
 }
 
 .div3 {
-    grid-area: 3 / 2 / 4 / 6;
+    grid-area: 2 / 2 / 3 / 6;
 }
 
 .div4 {
-    grid-area: 4 / 2 / 5 / 6;
+    grid-area: 3 / 2 / 4 / 6;
 }
 
 .tabel {
-    grid-area: 5 / 3 / 6 / 5;
+    grid-area: 4 / 3 / 5 / 5;
 }
 
 .mp4 {
-    grid-area: 6 / 2 / 7 / 6;
+    grid-area: 5 / 2 / 6 / 6;
 }
 
 .div8 {
-    grid-area: 7 / 3 / 8 / 5;
+    grid-area: 6 / 3 / 7 / 5;
 }
 
 .div9 {
-    grid-area: 8 / 3 / 9 / 5;
+    grid-area: 7 / 3 / 8 / 5;
 }
 
 .more-info {
-    grid-area: 9 / 3 / 10 / 5;
+    grid-area: 8 / 3 / 9 / 5;
 }
 
-.footer {
-    grid-area: 10 / 1 / 11 / 7;
+footer {
+    grid-area: 9 / 3 / 10 / 5; 
 }
 
 .div6 {
-    grid-area: 2 / 6 / 10 / 7;
+    grid-area: 1 / 6 / 10 / 7;
 }
 
 .div7 {
-    grid-area: 2 / 1 / 10 / 2;
+    grid-area: 1 / 1 / 10 / 2;
 }
+
+
+
+
+
+
+
+

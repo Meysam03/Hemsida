@@ -91,7 +91,7 @@ img {
 
 
 
-.footer {
+footer {
 	width: 100%;
 	background-color: rgb(45, 142, 167);
 	color: white;
@@ -108,7 +108,7 @@ img {
 	grid-row-gap: 20px;
 }
 
-.header {
+header {
 	grid-area: 1 / 1 / 2 / 6;
 }
 
@@ -148,6 +148,6 @@ img {
 	grid-area: 9 / 3 / 10 / 6;
 }
 
-.footer {
+footer {
 	grid-area: 11 / 1 / 12 / 6;
 }
